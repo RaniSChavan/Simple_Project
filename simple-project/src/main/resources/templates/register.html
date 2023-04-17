@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeLeaf.org">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>SignUp Page</title>
+</head>
+
+<body>
+	<form action="@{/signup}" th:object="${register}" method="post">
+		<fieldset>
+			<legend>SIGNUP</legend>
+		<table>
+			<tr>
+				<td>
+					<input type="text" name="fname" placeholder="First_Name">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<input type="text" name="lname" placeholder="Last_Name">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<input type="email" name="email" placeholder="Gmail">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<input type="tel" name="phnum" placeholder="Phone_Number">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<input type="password" name="pwd" placeholder="Password">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<button>submit</button>
+				</td>
+			</tr>
+			</fieldset>
+		</table>
+	</form>
+
+</body>
+
+</html>
