@@ -23,17 +23,17 @@ public class StudentManagementSystemApplication  implements CommandLineRunner{
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 		
-		Student student=new Student("Rani", "Chavan", "rani123@gmail.com");
-		studentRepository.save(student);
-		
-		Student student1=new Student("Virat", "Kohli", "kohli123@gmail.com");
-		studentRepository.save(student1);
-		
-		Student student2=new Student("Mahesh", "Chavan", "chavan123@gmail.com");
-		studentRepository.save(student2);
-	     
-		Student student3=new Student("Sachin", "Tendulkar", "sachin123@gmail.com");
-		studentRepository.save(student3);
+//		Student student=new Student("Rani", "Chavan", "rani123@gmail.com");
+//		studentRepository.save(student);
+//		
+//		Student student1=new Student("Virat", "Kohli", "kohli123@gmail.com");
+//		studentRepository.save(student1);
+//		
+//		Student student2=new Student("Mahesh", "Chavan", "chavan123@gmail.com");
+//		studentRepository.save(student2);
+//	     
+//		Student student3=new Student("Sachin", "Tendulkar", "sachin123@gmail.com");
+//		studentRepository.save(student3);
 		
 	}
 
