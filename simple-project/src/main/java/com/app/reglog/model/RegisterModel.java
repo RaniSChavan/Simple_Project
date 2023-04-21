@@ -2,8 +2,13 @@ package com.app.reglog.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
+
+import org.springframework.stereotype.Component;
 
 @Entity
+@Component
+@Table(name="SignupDtls")
 public class RegisterModel{
 	private String fname;
 	private String lname;

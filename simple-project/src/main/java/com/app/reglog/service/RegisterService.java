@@ -1,5 +1,12 @@
 package com.app.reglog.service;
 
-public class RegisterService {
+import java.util.List;
 
+import com.app.reglog.model.RegisterModel;
+
+public interface RegisterService {
+
+	 public void userRegister(RegisterModel registerModel);
+//	public List<Object> isRegisterModelPresent(RegisterModel registerModel);
+	
 }
